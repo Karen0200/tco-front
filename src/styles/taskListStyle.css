@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.filter {
+    margin: 50px auto;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+
+}
+
+.filter input {
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    padding: 3px 7px;
+}
+
+.filter button {
+    width: 70px;
+    height: 30px;
+    border-radius: 12px;
+    border: none;
+    background-color: #16ffdf;
+
+}
+
+.taskList {
+    width: 100%;
+    height: auto;
+    margin: 100px auto;
+}
+
+.Pending {
+    max-width: 800px;
+    min-width: 400px;
+    height: auto;
+    margin: 30px auto;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    border-bottom: 2px solid #3aff05;
+    border-radius: 15px;
+    background-color: #ff9b83;
+    padding: 5px 20px;
+}
+
+.pending {
+    height: auto;
+    max-width: 70%;
+    color: rgb(154, 9, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pTitle {
+    font-size: 23px;
+    line-height: 20px;
+    margin: 5px;
+}
+
+.pContent {
+    line-height: 20px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+
+.showBtn {
+    background-color: #a17ad0;
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+}
+
+.updateBtn {
+    background-color: #3aff05;
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+}
+
+.deleteBtn {
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    color: #b7e2ff;
+}
+
+.update a {
+    text-decoration: none;
+    color: mediumvioletred;
+}
+
+.show a {
+    text-decoration: none;
+    color: cyan;
+}
+
+.Done {
+    max-width: 800px;
+    min-width: 400px;
+    height: auto;
+    margin: 20px auto;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    border-bottom: 2px solid #3aff05;
+    border-radius: 15px;
+    background-color: #a2ffa5;
+    padding: 5px 20px;
+}
+
+.done {
+    height: auto;
+    max-width: 70%;
+    color: rgb(154, 9, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dTitle {
+    font-size: 23px;
+    line-height: 20px;
+    margin: 5px;
+}
+
+.dContent {
+
+    line-height: 20px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.buttons {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 5px auto;
+    display: flex;
+}
